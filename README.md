@@ -1,11 +1,11 @@
 # Image Generation App
 
-This Streamlit app generates AI images featuring Hari within a specified scene. It uses Gemini for prompt modification and Replicate for image generation.
+This Streamlit app generates AI images featuring Person within a specified scene. It uses Gemini for prompt modification and Replicate for image generation.
 
 ## Features
 
-* **Prompt Modification with Gemini:**  Takes a user-provided prompt and modifies it using Gemini to seamlessly integrate Hari into the scene.  Ensures Hari is visible and actively participating.
-* **Image Generation with Replicate:** Leverages a custom Replicate model (`harikrishnad1997/flux-1-hari-ft:37b22168a51d814b49bc8629cca6caaa6789a8a7b65cdd5123310fe5a5c5fecc`) fine-tuned to include Hari.
+* **Prompt Modification with Gemini:**  Takes a user-provided prompt and modifies it using Gemini to seamlessly integrate Person into the scene.  Ensures Person is visible and actively participating.
+* **Image Generation with Replicate:** Leverages a custom Replicate model (`harikrishnad1997/flux-1-hari-ft:37b22168a51d814b49bc8629cca6caaa6789a8a7b65cdd5123310fe5a5c5fecc`) fine-tuned to include Person.
 * **Customizable Settings:** Allows users to adjust the number of inference steps, guidance scale, and number of output images.
 * **Image Display and Download:** Displays the generated images within the app and provides download links.
 * **Error Handling:** Includes error handling for missing dependencies, API keys, and image loading failures.
@@ -62,9 +62,9 @@ streamlit run app.py
 ## Example
 
 1. User enters the prompt: "Winning the Italian GP as a Ferrari Driver"
-2. The app, using Gemini, modifies the prompt to something like: "Hari, a Ferrari driver, celebrates victory at the Italian Grand Prix, the checkered flag waving behind him as he raises his arms in triumph on the podium, surrounded by cheering fans."
+2. The app, using Gemini, modifies the prompt to something like: "Person, a Ferrari driver, celebrates victory at the Italian Grand Prix, the checkered flag waving behind him as he raises his arms in triumph on the podium, surrounded by cheering fans."
 3. The app uses the modified prompt to generate images with the Replicate model.
-4. The generated images, showing Hari as an F1 driver winning the Italian GP, are displayed to the user.
+4. The generated images, showing Person as an F1 driver winning the Italian GP, are displayed to the user.
 
 | Image 1 | Image 2 |
 |---|---|
